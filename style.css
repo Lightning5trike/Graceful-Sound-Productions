@@ -83,7 +83,7 @@ section.Title h1, section.Title h2, section.Title h3 {
 
 /* Form Styles */
 form {
-    padding: 20px 250px;
+    padding: 80px 250px;
 }
 
 form .row {
@@ -108,7 +108,7 @@ form .error_message {
 form #submit_button {
     background-color: var(--banner-color);
     color: var(--text-color);
-    padding: 10px 250px 10px;
+    padding: 10px 250px 10px 10px;
     border: none;
     cursor: pointer;
 }
@@ -116,13 +116,54 @@ form #submit_button {
 /* Footer Styles */
 footer.footer {
     text-align: center;
-    padding: 20px;
+    padding: 10px;
     background-color: var(--banner-color);
     color: var(--text-color);
     position: fixed;
     bottom: 0;
     width: 100%;
 }
+
+
+/* Portfolio Page */
+.titles {
+    text-align: center;
+    color: var(--text-color);
+    font-size: 64px;
+    margin: 100px;
+}
+
+.portfolio-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 80%;
+    margin: 0 auto 50px auto;
+    padding-top: 50px;
+}
+
+.youtube {
+    flex: 0 0 400px;
+    height: 225px;
+    border: none;
+    margin-left: 20px;
+}
+
+.description {
+    flex: 1;
+    margin: 0 20px;
+    text-align: right;
+}
+
+.description h2 {
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
+.description p {
+    margin: 0;
+}
+
 
 /* Responsive Styles */
 @media (max-width: 768px) {

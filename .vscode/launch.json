@@ -10,7 +10,7 @@
             "request": "launch",
             "name": "Open index.html",
             "timeout": 20000,
-            "file": "/Users/eliafetta/Documents/GitHub/Gracefull-Productions/index.html"
+            "file": "/Users/eliafetta/Documents/GitHub/Gracefull-Productions/home.html"
         }
     ]
 }
