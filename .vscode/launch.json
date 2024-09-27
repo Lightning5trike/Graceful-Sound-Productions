@@ -9,8 +9,8 @@
             "type": "chrome",
             "request": "launch",
             "name": "Open index.html",
-            "timeout": 20000,
-            "file": "/Users/eliafetta/Documents/GitHub/Gracefull-Productions/home.html"
+            "timeout": 30000,
+            "file": "/Users/eliafetta/Documents/GitHub/Graceful-Sound-Productions/home.html"
         }
     ]
 }
